@@ -7,6 +7,8 @@ import Canvas from "./component/Canvas";
 import Videos from "./component/Videos";
 import Cartoons from "./component/Cartoons";
 import Books from "./component/Books";
+import Contact from "./component/Contact";
+import Footer from "./component/Footer";
 function App() {
   return (
     <>
@@ -17,6 +19,8 @@ function App() {
       <Videos />
       <Cartoons />
       <Books />
+      <Contact />
+      <Footer />
     </>
   );
 }
