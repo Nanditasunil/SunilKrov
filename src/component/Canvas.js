@@ -15,7 +15,7 @@ import img12 from "../assets/canvas/img12.png";
 
 const Canvas = () => {
   return (
-    <section className="canvas-section">
+    <section className="canvas-section" id="works">
       <div>
         <h1 className="canvas-title">Canvas Art</h1>
         <p className="text-canvas">

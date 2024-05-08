@@ -15,15 +15,15 @@ const About = () => {
             <div className="about_btns">
               <div className="box_about">
                 <MdTravelExplore className="icons_about" />
-                <h3>Explore My Work</h3>
+                <h3 className="mb-2">Explore My Work</h3>
               </div>
               <div className="box_about">
                 <PiBooksFill className="icons_about" />
-                <h3>Discover My Books</h3>
+                <h3 className="mb-2">Discover My Books</h3>
               </div>
               <div className="box_about">
                 <GiCrossroad className="icons_about" />
-                <h3>Follow my Journey</h3>
+                <h3 className="mb-2">Follow my Journey</h3>
               </div>
             </div>
             <p className="desc_about">

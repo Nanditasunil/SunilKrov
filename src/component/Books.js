@@ -4,7 +4,7 @@ import book1 from "../assets/books/book1.jpg";
 import book2 from "../assets/books/book2.jpg";
 const Books = () => {
   return (
-    <section className="books-section">
+    <section className="books-section" id="books">
       <div>
         <h1 className="books-title">My Books</h1>
         <p className="text-books">

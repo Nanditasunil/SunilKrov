@@ -15,7 +15,9 @@ const Hero = () => {
           differnet arenas and genres .
         </p>
         <div className="hero-action">
-          <button className="hero-connect">Connect with me </button>
+          <a href="#contact" className="hero-connect">
+            Connect with me{" "}
+          </a>
         </div>
       </div>
     </section>

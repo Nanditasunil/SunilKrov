@@ -7,10 +7,15 @@
 
 .img {
   border-radius: 50%;
-  width: 15rem;
-  height: 15rem;
+  width: 20rem;
+  height: 20rem;
   object-fit: cover;
-  margin-top: 120px;
+  margin-top: 100px;
+}
+
+.img:hover {
+  border: #9179fa solid 5px;
+  transition: ease-in-out 0.7s;
 }
 
 .hero h1 {
@@ -20,9 +25,12 @@
   font-weight: 500px;
 }
 .spantext {
-  color: aqua;
+  color: #9179fa;
 }
-
+.spantext:hover {
+  color: #fb8569;
+  transition: ease-in-out 0.7s;
+}
 .hero p {
   width: 50%;
   text-align: center;
@@ -41,13 +49,13 @@
 .hero-connect {
   padding: 15px 15px;
   border-radius: 50px;
-  background: linear-gradient(264deg, #94c3f0, #34ca34, #d8a12b);
+  background: #fb8569;
   cursor: pointer;
 }
 
 .hero-connect:hover {
   border: 2px solid white;
-  background: transparent;
+  background: #9179fa;
   /* animation: ease-in-out; */
-  transition: 4s ease-in-out;
+  transition: 1s ease-in-out;
 }
