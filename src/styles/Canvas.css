@@ -1,0 +1,27 @@
+.canvas-section {
+  padding: 24rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas-title {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
+  transition: ease-in 1s;
+  padding-left: 30rem;
+}
+
+.canvas-title:hover {
+  color: brown;
+  transition: ease-in 2s;
+}
+
+.text-canvas {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}

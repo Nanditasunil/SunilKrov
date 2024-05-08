@@ -1,0 +1,31 @@
+/* Add this to your Video.css file */
+.video-section {
+  padding: 24rem;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-title {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
+  transition: ease-in 1s;
+  padding-left: 30rem;
+}
+
+.video-title:hover {
+  color: brown;
+  transition: ease-in 2s;
+}
+
+.text-video {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.slick-slide {
+  margin: 10px; /* Adjust the margin as needed */
+}
