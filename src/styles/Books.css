@@ -1,15 +1,14 @@
-.video-section {
+.books-section {
   padding-left: 24rem;
   padding-right: 24rem;
   padding-top: 3rem; /* Adjusted padding-top */
-  padding-bottom: 6rem; /* Adjusted padding-bottom */
+  padding-bottom: 2rem; /* Adjusted padding-bottom */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
-.video-title {
+.books-title {
   font-size: 2rem;
   font-weight: bold;
   padding-bottom: 1.5rem;
@@ -17,20 +16,12 @@
   padding-left: 30rem;
 }
 
-.video-title:hover {
+.books-title:hover {
   color: brown;
   transition: ease-in 2s;
 }
 
-.text-video {
+.text-books {
   font-size: 1rem;
   margin-bottom: 2rem;
-}
-
-.slick-slide > div {
-  margin: 0 10px;
-}
-
-.slick-dots li.slick-active button:before {
-  color: orange !important;
 }
