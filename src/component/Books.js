@@ -2,11 +2,21 @@ import React from "react";
 import "../styles/Books.css";
 import book1 from "../assets/books/book1.jpg";
 import book2 from "../assets/books/book2.jpg";
+import { FaBookBookmark } from "react-icons/fa6";
 const Books = () => {
   return (
     <section className="books-section" id="books">
       <div>
-        <h1 className="books-title">My Books</h1>
+        <div
+          id="toast-default"
+          className="flex items-center w-full max-w-l p-4 text-indigo-300 "
+          role="alert"
+        >
+          <div className="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 text-orange-500 bg[#FB8569] rounded-lg dark:bg-[#FB8569] dark:text-white">
+            <FaBookBookmark className="self-center text-4xl" />
+          </div>
+          <div className="ms-3 text-4xl font-bold">Graphic Novels</div>
+        </div>
         <p className="text-books">
           Step into a world of wonder with our artist's delightful books
           published by Penguin Books. These cartoon graphical stories promise
@@ -30,7 +40,7 @@ const Books = () => {
             </p>
             <a
               href="#"
-              className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#FB8569] rounded-lg hover:bg-[#FB8569] focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-[#FB8569] dark:hover:bg-[#9179FA] dark:focus:ring-blue-800"
             >
               Buy Book
               <svg
@@ -65,9 +75,9 @@ const Books = () => {
             </p>
             <a
               href="#"
-              className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#FB8569] rounded-lg hover:bg-[#FB8569] focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-[#FB8569] dark:hover:bg-[#9179FA] dark:focus:ring-blue-800"
             >
-              Read more
+              Buy Book
               <svg
                 className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
                 aria-hidden="true"

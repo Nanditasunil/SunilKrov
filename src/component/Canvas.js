@@ -12,12 +12,23 @@ import img9 from "../assets/canvas/img9.png";
 import img10 from "../assets/canvas/img10.png";
 import img11 from "../assets/canvas/img11.png";
 import img12 from "../assets/canvas/img12.png";
+import { LuPaintbrush } from "react-icons/lu";
 
 const Canvas = () => {
   return (
     <section className="canvas-section" id="works">
       <div>
-        <h1 className="canvas-title">Canvas Art</h1>
+        <div
+          id="toast-default"
+          className="flex items-center w-full max-w-xs p-4 text-indigo-300 "
+          role="alert"
+        >
+          <div className="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 text-orange-500 bg[#FB8569] rounded-lg dark:bg-[#FB8569] dark:text-white">
+            <LuPaintbrush className="self-center text-4xl" />
+          </div>
+          <div className="ms-3 text-4xl font-bold">Canvas Art</div>
+        </div>
+
         <p className="text-canvas">
           Explore canvas artistry that reflects the vibrant essence of Kerala
           and transcends boundaries of tradition and innovation. Each piece

@@ -7,7 +7,7 @@ import yt1 from "../assets/videos/yt1.png";
 import yt2 from "../assets/videos/yt2.png";
 import yt3 from "../assets/videos/yt3.png";
 import yt4 from "../assets/videos/yt4.png";
-
+import { MdOutlineVideoSettings } from "react-icons/md";
 const Videos = () => {
   const settings = {
     dots: true,
@@ -24,7 +24,16 @@ const Videos = () => {
   return (
     <section className="video-section">
       <div>
-        <h1 className="video-title">Youtube Videos</h1>
+        <div
+          id="toast-default"
+          className="flex items-center w-full max-w-l p-4 text-indigo-300 "
+          role="alert"
+        >
+          <div className="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 text-orange-500 bg[#FB8569] rounded-lg dark:bg-[#FB8569] dark:text-white">
+            <MdOutlineVideoSettings className="self-center text-4xl" />
+          </div>
+          <div className="ms-3 text-4xl font-bold">Animated Videos</div>
+        </div>
         <p className="text-video">
           Step into the enchanting world of Blender animation on my YouTube
           channel! From character animations to captivating landscapes, each
@@ -41,11 +50,11 @@ const Videos = () => {
                 key={d.name}
                 className="bg-white h-[500px] text-black rounded-xl"
               >
-                <div className="h-56 bg-indigo-500 flex justify-center items-center rounded-t-xl">
+                <div className="h-56 bg-[#FB8569] flex justify-center items-center rounded-t-xl">
                   <img
                     src={d.img}
                     alt=""
-                    className="h-54 w-54 "
+                    className="h-54 w-53"
                     style={{ objectFit: "cover" }}
                   />
                 </div>
@@ -54,7 +63,7 @@ const Videos = () => {
                   <p className="text-xl font-semibold">{d.name}</p>
                   <p className="text-center">{d.review}</p>
                   <button
-                    className="bg-indigo-500 text-white text-lg px-6 py-1 rounded-xl"
+                    className="bg-[#9179FA] text-white text-lg px-6 py-1 rounded-xl"
                     onClick={() => handleButtonClick(d.link)}
                   >
                     View Video

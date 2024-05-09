@@ -9,11 +9,21 @@ import car5 from "../assets/cartoons/car5.png";
 
 import { Carousel } from "./quickComp/Carousel";
 import info from "../data/carouselData.json";
+import { MdDraw } from "react-icons/md";
 const Cartoons = () => {
   return (
     <section className="cartoon-section">
       <div>
-        <h1 className="cartoon-title">Political Cartoons</h1>
+        <div
+          id="toast-default"
+          className="flex items-center w-full max-w-l p-4 text-indigo-300 "
+          role="alert"
+        >
+          <div className="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 text-orange-500 bg[#FB8569] rounded-lg dark:bg-[#FB8569] dark:text-white">
+            <MdDraw className="self-center text-4xl" />
+          </div>
+          <div className="ms-3 text-4xl font-bold">Political Cartoons</div>
+        </div>
         <p className="text-cartoon">
           Embark on a captivating journey through the artist's world of
           political cartoons, where Kerala's essence merges with astute

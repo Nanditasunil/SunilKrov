@@ -7,9 +7,12 @@ import insta from "../assets/socials/insta.png";
 import facebook from "../assets/socials/facebook.png";
 const Contact = () => {
   return (
-    <section class="bg-center bg-no-repeat  bg-gray-700 bg-blend-multiply" id="contact">
+    <section
+      class="bg-center bg-no-repeat  bg-[#1F2527] bg-blend-multiply"
+      id="contact"
+    >
       <div class="pt-4 pb-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
-        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
+        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-indigo-300 md:text-5xl lg:text-6xl">
           Lets Connect !!
         </h1>
         <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
@@ -34,8 +37,8 @@ const Contact = () => {
 
               <div className="flex mt-4 md:mt-6">
                 <a
-                  href="#"
-                  className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  href="https://www.instagram.com/sunilnambu/"
+                  className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-[#FB8569] rounded-lg hover:bg-[#FB8569] focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-[#FB8569]dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                 >
                   Connect
                 </a>
@@ -59,8 +62,8 @@ const Contact = () => {
 
               <div className="flex mt-4 md:mt-6">
                 <a
-                  href="#"
-                  className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  href="https://www.facebook.com/sunilraj.p/"
+                  className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-[#FB8569] rounded-lg hover:bg-[#FB8569] focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-[#FB8569]dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                 >
                   Connect
                 </a>
@@ -85,8 +88,8 @@ const Contact = () => {
 
               <div className="flex mt-4 md:mt-6">
                 <a
-                  href="#"
-                  className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  href="https://www.linkedin.com/in/sunil-raj-p-9517741a/details/experience/"
+                  className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-[#FB8569] rounded-lg hover:bg-[#FB8569] focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-[#FB8569]dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                 >
                   Connect
                 </a>
